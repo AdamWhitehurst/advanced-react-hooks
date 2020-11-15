@@ -1,9 +1,9 @@
+import {alfredTip} from '@kentcdodds/react-workshop-app/test-utils'
+import {act, render} from '@testing-library/react'
 import matchMediaPolyfill from 'mq-polyfill'
 import * as React from 'react'
-import {alfredTip} from '@kentcdodds/react-workshop-app/test-utils'
-import {render, act} from '@testing-library/react'
-import App from '../final/06'
-// import App from '../exercise/06'
+// import App from '../final/06'
+import App from '../exercise/06'
 
 beforeAll(() => {
   matchMediaPolyfill(window)
